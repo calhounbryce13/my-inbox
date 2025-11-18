@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async() => {
             data.forEach((mssg) => {
                 const message = document.createElement('div');
                 message.classList.add('message');
-                message.textContent = mssg;
+                message.textContent = mssg.message;
                 document.getElementById('data').appendChild(message);
             })
         }
